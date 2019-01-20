@@ -1,5 +1,7 @@
 # n = número de peças dispostas no tabuleiro
 # m = máximo de peças possíveis de ser retirar
+print("O jogo é simples.\nVocê escolhe quantas peças quer no tabuleiro\nDepois escolhe quantas peças podem ser tiradas por vez\nVence quem tirar a última peça")
+
 def computador_escolhe_jogada(n,m):
 	lista = []
 	for x in range(1,m+1):
